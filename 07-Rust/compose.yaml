@@ -1,0 +1,10 @@
+services:
+  rust:
+    image: rust:bookworm
+    volumes:
+      - ./myproj:/projects/myproj
+    working_dir: /projects/myproj
+    tty: true
+    environment:
+      - USER=user
+
