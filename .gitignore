@@ -51,3 +51,6 @@ code7_14
 
 # API key
 .env
+
+# node-modules
+node_modules/
