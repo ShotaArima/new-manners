@@ -49,3 +49,8 @@ code7_12
 code7_13.txt
 code7_14
 
+# API key
+.env
+
+# node-modules
+node_modules/

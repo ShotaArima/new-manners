@@ -1,0 +1,10 @@
+
+services:
+  node-app:
+    image: node:18
+    volumes:
+      - ./src:/app/src
+    tty: true
+    working_dir: /app/src
+    ports:
+      - 3000:3000
